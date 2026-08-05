@@ -4,19 +4,19 @@ const SERVICES = [
   {
     title: 'Automate your dev flow',
     body:
-      "Agentic pipelines that carry work from ticket to review-ready pull request — wired into Jira or Azure DevOps, clearing your own build, test, and coverage gates, and self-correcting when CI fails. Your engineers stop grinding through mechanical steps and spend their time on the judgment calls only they can make.",
+      "Agentic pipelines that carry work from ticket to review-ready pull request. They wire into Jira or Azure DevOps, clear your own build, test, and coverage gates, and self-correct when CI fails. Your engineers stop grinding through mechanical steps and spend their time on the judgment calls only they can make.",
     tags: ['Ticket → PR', 'Human-gated merges', 'Learns from review'],
   },
   {
     title: 'Custom client-facing AI agents',
     body:
-      "Multi-agent assistants built on your proprietary data, exposed through MCP with guardrails, observability, and auditing baked in. Strict data isolation, closed-world grounding so it won't invent answers, and a deployment that fits you — cloud or on-prem.",
+      "Multi-agent assistants built on your proprietary data, exposed through MCP with guardrails, observability, and auditing baked in. Strict data isolation, closed-world grounding so it won't invent answers, and a deployment that fits you, cloud or on-prem.",
     tags: ['Your data', 'Guardrails & auditing', 'Cloud or on-prem'],
   },
   {
     title: 'RAG over your proprietary docs',
     body:
-      'Ask your codebase, documentation, and internal knowledge in plain language and get grounded, cited answers. Retrieval, chunking, hybrid search, and re-ranking with built-in guardrails that keep it on-source — so complex systems become navigable, even for non-engineers.',
+      'Ask your codebase, documentation, and internal knowledge in plain language and get grounded, cited answers. Retrieval, chunking, hybrid search, and re-ranking with built-in guardrails that keep it on-source, so complex systems become navigable even for non-engineers.',
     tags: ['Grounded & cited', 'Hybrid search', 'On-source guardrails'],
   },
 ];

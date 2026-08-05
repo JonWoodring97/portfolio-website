@@ -4,17 +4,17 @@ const PRINCIPLES = [
   {
     title: 'Validated boundaries, not raw output',
     body:
-      "Agents produce typed, schema-validated artifacts a deterministic layer consumes — closing off the class of failures where a model invents logic your platform doesn't support.",
+      "Agents produce typed, schema-validated artifacts that a deterministic layer consumes. That closes off the class of failures where a model invents logic your platform doesn't support.",
   },
   {
     title: 'Gates on the irreversible steps',
     body:
-      "Automate what is reversible; put a human at the one step you can't undo. A person reviews and approves before anything merges or ships — nothing happens behind your back.",
+      "Automate what is reversible; put a human at the one step you can't undo. A person reviews and approves before anything merges or ships. Nothing happens behind your back.",
   },
   {
     title: "Closed-world grounding",
     body:
-      "The system is built to refuse to guess about your data. When it isn't confident, it asks or cites rather than inventing — because a confident wrong answer is worse than none.",
+      "The system is built to refuse to guess about your data. When it isn't confident, it asks or cites rather than inventing, because a confident wrong answer is worse than none.",
   },
   {
     title: 'Data isolation below the agent',
@@ -24,7 +24,7 @@ const PRINCIPLES = [
   {
     title: 'Human judgment that compounds',
     body:
-      'Every review your team does is captured and retrieved via MCP on future work — so corrections made today become the quality the system delivers by default tomorrow.',
+      'Every review your team does is captured and retrieved via MCP on later work, so corrections made today become the quality the system delivers by default tomorrow.',
   },
   {
     title: 'Evaluated and observable',

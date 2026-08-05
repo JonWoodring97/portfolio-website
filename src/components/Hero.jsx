@@ -9,9 +9,8 @@ export default function Hero() {
         </h1>
         <p className="hero-lead">
           I design and ship agentic systems that take real work off your team's
-          plate — from ticket to reviewed pull request, from your data to
-          answers you can trust. Unlock your business's potential in the age of
-          AI.
+          plate, from ticket to reviewed pull request, from your data to answers
+          you can trust.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#services">

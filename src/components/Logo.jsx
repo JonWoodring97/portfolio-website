@@ -1,6 +1,6 @@
 export default function Logo() {
   return (
-    <a className="logo" href="#top" aria-label="Jon Woodring — home">
+    <a className="logo" href="#top" aria-label="Jon Woodring, home">
       <svg
         className="logo-mark"
         viewBox="0 0 40 40"

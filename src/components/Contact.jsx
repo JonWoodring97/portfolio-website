@@ -6,7 +6,7 @@ export default function Contact() {
       <p className="contact-lead">
         I'm open to contracts. Whether you want to automate your dev flow, put a
         trustworthy agent in front of your customers, or make your own knowledge
-        searchable — I'd be glad to talk it through.
+        searchable, I'd be glad to talk it through.
       </p>
       <div className="hero-actions">
         <a
