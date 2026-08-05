@@ -1,3 +1,21 @@
+// Clears a #fragment left in the address bar by an inbound deep link or an
+// older cached build. Runs after the first render so the target exists: jump
+// to the section, then rewrite the URL in place so no history entry is added
+// and reloading keeps the bare domain.
+export function clearHashFromUrl() {
+  const { hash, pathname, search } = window.location;
+  if (!hash) return;
+
+  const target = document.querySelector(hash);
+  if (target) {
+    // Instant, not smooth: on load the visitor should already be where the
+    // link pointed rather than watching the page animate there.
+    target.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
+
+  window.history.replaceState(null, '', pathname + search);
+}
+
 // In-page nav scrolls to the target section without writing a #fragment into
 // the URL bar. The href stays on the anchor so middle-click, open-in-new-tab,
 // and no-JS loads all still work; we only intercept the plain left-click.
