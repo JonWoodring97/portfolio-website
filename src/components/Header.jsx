@@ -1,4 +1,5 @@
 import Logo from './Logo';
+import scrollToSection from '../scrollToSection';
 
 const NAV_LINKS = [
   { href: '#services', label: 'Services' },
@@ -17,7 +18,11 @@ export default function Header() {
           <ul className="nav-list">
             {NAV_LINKS.map(({ href, label }) => (
               <li key={href}>
-                <a className="nav-link" href={href}>
+                <a
+                  className="nav-link"
+                  href={href}
+                  onClick={(event) => scrollToSection(event, href)}
+                >
                   {label}
                 </a>
               </li>

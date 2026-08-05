@@ -1,3 +1,5 @@
+import scrollToSection from '../scrollToSection';
+
 export default function Hero() {
   return (
     <section className="hero">
@@ -13,10 +15,18 @@ export default function Hero() {
           you can trust.
         </p>
         <div className="hero-actions">
-          <a className="button button-primary" href="#services">
+          <a
+            className="button button-primary"
+            href="#services"
+            onClick={(event) => scrollToSection(event, '#services')}
+          >
             Explore services
           </a>
-          <a className="button button-ghost" href="#contact">
+          <a
+            className="button button-ghost"
+            href="#contact"
+            onClick={(event) => scrollToSection(event, '#contact')}
+          >
             Start a project
           </a>
         </div>
