@@ -29,11 +29,7 @@ const PROJECTS = [
 
 export default function Projects() {
   return (
-    <Section id="projects" kicker="Work" title="What I've built">
-      <p className="section-note">
-        These are internal and production systems, so there are no public repos
-        to link — write-ups coming as I open more of this work up.
-      </p>
+    <Section id="projects" kicker="Work" title="What I build">
       <div className="card-grid">
         {PROJECTS.map(({ title, description, tags }) => (
           <article className="card" key={title}>
